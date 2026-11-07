@@ -1,0 +1,272 @@
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="1004" height="440" viewBox="0 0 1004 440">
+      <defs>
+        <linearGradient id="bgGradient" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#090d16" />
+          <stop offset="100%" stop-color="#0f172a" />
+        </linearGradient>
+      </defs>
+      
+      <!-- 主背景 -->
+      <rect width="100%" height="100%" rx="24" fill="url(#bgGradient)" stroke="#1e293b" stroke-width="2"/>
+      
+      <!-- 頂部標題區 -->
+      <text x="40" y="60" fill="#f8fafc" font-size="28" font-weight="bold" font-family="Microsoft JhengHei, PingFang TC, sans-serif">
+        📍 台北 一週天氣預報
+      </text>
+      <text x="40" y="92" fill="#64748b" font-size="14" font-family="Microsoft JhengHei, PingFang TC, sans-serif">
+        預報期間：2026-11-07 ~ 2026-11-13 ｜ 每日降雨機率與氣溫趨勢
+      </text>
+      
+      <!-- 7 天卡片 -->
+      
+      <g transform="translate(40, 140)">
+        <!-- 卡片背景 -->
+        <rect width="120" height="250" rx="16" fill="#1e293b" stroke="#38bdf8" stroke-width="2" />
+        
+        <rect x="30" y="8" width="60" height="20" rx="10" fill="#0284c7" />
+        <text x="60" y="22" fill="#ffffff" font-size="11" font-weight="bold" text-anchor="middle" font-family="Microsoft JhengHei, PingFang TC, sans-serif">今日</text>
+
+        <!-- 星期與日期 -->
+        <text x="60" y="48" fill="#f8fafc" font-size="16" font-weight="bold" text-anchor="middle" font-family="Microsoft JhengHei, PingFang TC, sans-serif">週六</text>
+        <text x="60" y="68" fill="#94a3b8" font-size="12" text-anchor="middle" font-family="Microsoft JhengHei, PingFang TC, sans-serif">11-07</text>
+
+        <!-- 天氣圖示 -->
+        <g transform="translate(32, 76) scale(1)">
+          
+    <g>
+      <path d="M14 30 C 10 30, 8 27, 8 23 C 8 19, 11 17, 15 17 C 17 12, 22 10, 27 10 C 33 10, 37 13, 38 18 C 42 18, 45 21, 45 25 C 45 29, 42 30, 38 30 Z" fill="#64748b" />
+      <g stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round">
+        <line x1="18" y1="36" x2="16" y2="43" />
+        <line x1="26" y1="36" x2="24" y2="43" />
+        <line x1="34" y1="36" x2="32" y2="43" />
+      </g>
+    </g>
+  
+        </g>
+
+        <!-- 天氣文字 -->
+        <text x="60" y="145" fill="#e2e8f0" font-size="13" font-weight="500" text-anchor="middle" font-family="Microsoft JhengHei, PingFang TC, sans-serif">小毛毛雨</text>
+
+        <!-- 氣溫 (高溫 / 低溫) -->
+        <text x="60" y="175" fill="#f8fafc" font-size="18" font-weight="bold" text-anchor="middle" font-family="Microsoft JhengHei, PingFang TC, sans-serif">26° / <tspan fill="#64748b" font-size="15">22°</tspan></text>
+
+        <!-- 降雨機率 -->
+        <g transform="translate(35, 198)">
+          <path d="M7 2 C 7 2, 2 8, 2 11 C 2 14, 4.2 16, 7 16 C 9.8 16, 12 14, 12 11 C 12 8, 7 2, 7 2 Z" fill="#38bdf8"/>
+          <text x="20" y="12" fill="#38bdf8" font-size="12" font-weight="bold" font-family="Microsoft JhengHei, PingFang TC, sans-serif">27%</text>
+        </g>
+      </g>
+    
+
+      <g transform="translate(174, 140)">
+        <!-- 卡片背景 -->
+        <rect width="120" height="250" rx="16" fill="#0f172a" stroke="#334155" stroke-width="1" />
+        
+        
+
+        <!-- 星期與日期 -->
+        <text x="60" y="38" fill="#f8fafc" font-size="16" font-weight="bold" text-anchor="middle" font-family="Microsoft JhengHei, PingFang TC, sans-serif">週日</text>
+        <text x="60" y="58" fill="#94a3b8" font-size="12" text-anchor="middle" font-family="Microsoft JhengHei, PingFang TC, sans-serif">11-08</text>
+
+        <!-- 天氣圖示 -->
+        <g transform="translate(32, 68) scale(1)">
+          
+      <g>
+        <circle cx="34" cy="20" r="9" fill="#f59e0b" />
+        <path d="M16 38 C 12 38, 10 35, 10 31 C 10 26, 14 24, 18 24 C 19 19, 24 16, 29 16 C 35 16, 39 20, 39 25 C 43 25, 46 28, 46 32 C 46 36, 43 38, 39 38 Z" fill="#94a3b8" />
+      </g>
+    
+        </g>
+
+        <!-- 天氣文字 -->
+        <text x="60" y="145" fill="#e2e8f0" font-size="13" font-weight="500" text-anchor="middle" font-family="Microsoft JhengHei, PingFang TC, sans-serif">晴時多雲</text>
+
+        <!-- 氣溫 (高溫 / 低溫) -->
+        <text x="60" y="175" fill="#f8fafc" font-size="18" font-weight="bold" text-anchor="middle" font-family="Microsoft JhengHei, PingFang TC, sans-serif">28° / <tspan fill="#64748b" font-size="15">22°</tspan></text>
+
+        <!-- 降雨機率 -->
+        <g transform="translate(35, 198)">
+          <path d="M7 2 C 7 2, 2 8, 2 11 C 2 14, 4.2 16, 7 16 C 9.8 16, 12 14, 12 11 C 12 8, 7 2, 7 2 Z" fill="#38bdf8"/>
+          <text x="20" y="12" fill="#38bdf8" font-size="12" font-weight="bold" font-family="Microsoft JhengHei, PingFang TC, sans-serif">0%</text>
+        </g>
+      </g>
+    
+
+      <g transform="translate(308, 140)">
+        <!-- 卡片背景 -->
+        <rect width="120" height="250" rx="16" fill="#0f172a" stroke="#334155" stroke-width="1" />
+        
+        
+
+        <!-- 星期與日期 -->
+        <text x="60" y="38" fill="#f8fafc" font-size="16" font-weight="bold" text-anchor="middle" font-family="Microsoft JhengHei, PingFang TC, sans-serif">週一</text>
+        <text x="60" y="58" fill="#94a3b8" font-size="12" text-anchor="middle" font-family="Microsoft JhengHei, PingFang TC, sans-serif">11-09</text>
+
+        <!-- 天氣圖示 -->
+        <g transform="translate(32, 68) scale(1)">
+          
+    <g>
+      <path d="M14 30 C 10 30, 8 27, 8 23 C 8 19, 11 17, 15 17 C 17 12, 22 10, 27 10 C 33 10, 37 13, 38 18 C 42 18, 45 21, 45 25 C 45 29, 42 30, 38 30 Z" fill="#64748b" />
+      <g stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round">
+        <line x1="18" y1="36" x2="16" y2="43" />
+        <line x1="26" y1="36" x2="24" y2="43" />
+        <line x1="34" y1="36" x2="32" y2="43" />
+      </g>
+    </g>
+  
+        </g>
+
+        <!-- 天氣文字 -->
+        <text x="60" y="145" fill="#e2e8f0" font-size="13" font-weight="500" text-anchor="middle" font-family="Microsoft JhengHei, PingFang TC, sans-serif">小毛毛雨</text>
+
+        <!-- 氣溫 (高溫 / 低溫) -->
+        <text x="60" y="175" fill="#f8fafc" font-size="18" font-weight="bold" text-anchor="middle" font-family="Microsoft JhengHei, PingFang TC, sans-serif">26° / <tspan fill="#64748b" font-size="15">18°</tspan></text>
+
+        <!-- 降雨機率 -->
+        <g transform="translate(35, 198)">
+          <path d="M7 2 C 7 2, 2 8, 2 11 C 2 14, 4.2 16, 7 16 C 9.8 16, 12 14, 12 11 C 12 8, 7 2, 7 2 Z" fill="#38bdf8"/>
+          <text x="20" y="12" fill="#38bdf8" font-size="12" font-weight="bold" font-family="Microsoft JhengHei, PingFang TC, sans-serif">81%</text>
+        </g>
+      </g>
+    
+
+      <g transform="translate(442, 140)">
+        <!-- 卡片背景 -->
+        <rect width="120" height="250" rx="16" fill="#0f172a" stroke="#334155" stroke-width="1" />
+        
+        
+
+        <!-- 星期與日期 -->
+        <text x="60" y="38" fill="#f8fafc" font-size="16" font-weight="bold" text-anchor="middle" font-family="Microsoft JhengHei, PingFang TC, sans-serif">週二</text>
+        <text x="60" y="58" fill="#94a3b8" font-size="12" text-anchor="middle" font-family="Microsoft JhengHei, PingFang TC, sans-serif">11-10</text>
+
+        <!-- 天氣圖示 -->
+        <g transform="translate(32, 68) scale(1)">
+          
+    <g>
+      <path d="M14 30 C 10 30, 8 27, 8 23 C 8 19, 11 17, 15 17 C 17 12, 22 10, 27 10 C 33 10, 37 13, 38 18 C 42 18, 45 21, 45 25 C 45 29, 42 30, 38 30 Z" fill="#64748b" />
+      <g stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round">
+        <line x1="18" y1="36" x2="16" y2="43" />
+        <line x1="26" y1="36" x2="24" y2="43" />
+        <line x1="34" y1="36" x2="32" y2="43" />
+      </g>
+    </g>
+  
+        </g>
+
+        <!-- 天氣文字 -->
+        <text x="60" y="145" fill="#e2e8f0" font-size="13" font-weight="500" text-anchor="middle" font-family="Microsoft JhengHei, PingFang TC, sans-serif">小毛毛雨</text>
+
+        <!-- 氣溫 (高溫 / 低溫) -->
+        <text x="60" y="175" fill="#f8fafc" font-size="18" font-weight="bold" text-anchor="middle" font-family="Microsoft JhengHei, PingFang TC, sans-serif">21° / <tspan fill="#64748b" font-size="15">16°</tspan></text>
+
+        <!-- 降雨機率 -->
+        <g transform="translate(35, 198)">
+          <path d="M7 2 C 7 2, 2 8, 2 11 C 2 14, 4.2 16, 7 16 C 9.8 16, 12 14, 12 11 C 12 8, 7 2, 7 2 Z" fill="#38bdf8"/>
+          <text x="20" y="12" fill="#38bdf8" font-size="12" font-weight="bold" font-family="Microsoft JhengHei, PingFang TC, sans-serif">45%</text>
+        </g>
+      </g>
+    
+
+      <g transform="translate(576, 140)">
+        <!-- 卡片背景 -->
+        <rect width="120" height="250" rx="16" fill="#0f172a" stroke="#334155" stroke-width="1" />
+        
+        
+
+        <!-- 星期與日期 -->
+        <text x="60" y="38" fill="#f8fafc" font-size="16" font-weight="bold" text-anchor="middle" font-family="Microsoft JhengHei, PingFang TC, sans-serif">週三</text>
+        <text x="60" y="58" fill="#94a3b8" font-size="12" text-anchor="middle" font-family="Microsoft JhengHei, PingFang TC, sans-serif">11-11</text>
+
+        <!-- 天氣圖示 -->
+        <g transform="translate(32, 68) scale(1)">
+          
+      <g>
+        <path d="M14 38 C 9 38, 7 34, 7 30 C 7 25, 11 22, 16 22 C 18 16, 24 13, 30 13 C 37 13, 42 17, 43 23 C 47 23, 50 26, 50 31 C 50 36, 46 38, 42 38 Z" fill="#64748b" />
+      </g>
+    
+        </g>
+
+        <!-- 天氣文字 -->
+        <text x="60" y="145" fill="#e2e8f0" font-size="13" font-weight="500" text-anchor="middle" font-family="Microsoft JhengHei, PingFang TC, sans-serif">陰天</text>
+
+        <!-- 氣溫 (高溫 / 低溫) -->
+        <text x="60" y="175" fill="#f8fafc" font-size="18" font-weight="bold" text-anchor="middle" font-family="Microsoft JhengHei, PingFang TC, sans-serif">25° / <tspan fill="#64748b" font-size="15">18°</tspan></text>
+
+        <!-- 降雨機率 -->
+        <g transform="translate(35, 198)">
+          <path d="M7 2 C 7 2, 2 8, 2 11 C 2 14, 4.2 16, 7 16 C 9.8 16, 12 14, 12 11 C 12 8, 7 2, 7 2 Z" fill="#38bdf8"/>
+          <text x="20" y="12" fill="#38bdf8" font-size="12" font-weight="bold" font-family="Microsoft JhengHei, PingFang TC, sans-serif">15%</text>
+        </g>
+      </g>
+    
+
+      <g transform="translate(710, 140)">
+        <!-- 卡片背景 -->
+        <rect width="120" height="250" rx="16" fill="#0f172a" stroke="#334155" stroke-width="1" />
+        
+        
+
+        <!-- 星期與日期 -->
+        <text x="60" y="38" fill="#f8fafc" font-size="16" font-weight="bold" text-anchor="middle" font-family="Microsoft JhengHei, PingFang TC, sans-serif">週四</text>
+        <text x="60" y="58" fill="#94a3b8" font-size="12" text-anchor="middle" font-family="Microsoft JhengHei, PingFang TC, sans-serif">11-12</text>
+
+        <!-- 天氣圖示 -->
+        <g transform="translate(32, 68) scale(1)">
+          
+      <g>
+        <path d="M14 38 C 9 38, 7 34, 7 30 C 7 25, 11 22, 16 22 C 18 16, 24 13, 30 13 C 37 13, 42 17, 43 23 C 47 23, 50 26, 50 31 C 50 36, 46 38, 42 38 Z" fill="#64748b" />
+      </g>
+    
+        </g>
+
+        <!-- 天氣文字 -->
+        <text x="60" y="145" fill="#e2e8f0" font-size="13" font-weight="500" text-anchor="middle" font-family="Microsoft JhengHei, PingFang TC, sans-serif">陰天</text>
+
+        <!-- 氣溫 (高溫 / 低溫) -->
+        <text x="60" y="175" fill="#f8fafc" font-size="18" font-weight="bold" text-anchor="middle" font-family="Microsoft JhengHei, PingFang TC, sans-serif">29° / <tspan fill="#64748b" font-size="15">19°</tspan></text>
+
+        <!-- 降雨機率 -->
+        <g transform="translate(35, 198)">
+          <path d="M7 2 C 7 2, 2 8, 2 11 C 2 14, 4.2 16, 7 16 C 9.8 16, 12 14, 12 11 C 12 8, 7 2, 7 2 Z" fill="#38bdf8"/>
+          <text x="20" y="12" fill="#38bdf8" font-size="12" font-weight="bold" font-family="Microsoft JhengHei, PingFang TC, sans-serif">4%</text>
+        </g>
+      </g>
+    
+
+      <g transform="translate(844, 140)">
+        <!-- 卡片背景 -->
+        <rect width="120" height="250" rx="16" fill="#0f172a" stroke="#334155" stroke-width="1" />
+        
+        
+
+        <!-- 星期與日期 -->
+        <text x="60" y="38" fill="#f8fafc" font-size="16" font-weight="bold" text-anchor="middle" font-family="Microsoft JhengHei, PingFang TC, sans-serif">週五</text>
+        <text x="60" y="58" fill="#94a3b8" font-size="12" text-anchor="middle" font-family="Microsoft JhengHei, PingFang TC, sans-serif">11-13</text>
+
+        <!-- 天氣圖示 -->
+        <g transform="translate(32, 68) scale(1)">
+          
+      <g>
+        <circle cx="34" cy="20" r="9" fill="#f59e0b" />
+        <path d="M16 38 C 12 38, 10 35, 10 31 C 10 26, 14 24, 18 24 C 19 19, 24 16, 29 16 C 35 16, 39 20, 39 25 C 43 25, 46 28, 46 32 C 46 36, 43 38, 39 38 Z" fill="#94a3b8" />
+      </g>
+    
+        </g>
+
+        <!-- 天氣文字 -->
+        <text x="60" y="145" fill="#e2e8f0" font-size="13" font-weight="500" text-anchor="middle" font-family="Microsoft JhengHei, PingFang TC, sans-serif">多雲</text>
+
+        <!-- 氣溫 (高溫 / 低溫) -->
+        <text x="60" y="175" fill="#f8fafc" font-size="18" font-weight="bold" text-anchor="middle" font-family="Microsoft JhengHei, PingFang TC, sans-serif">30° / <tspan fill="#64748b" font-size="15">20°</tspan></text>
+
+        <!-- 降雨機率 -->
+        <g transform="translate(35, 198)">
+          <path d="M7 2 C 7 2, 2 8, 2 11 C 2 14, 4.2 16, 7 16 C 9.8 16, 12 14, 12 11 C 12 8, 7 2, 7 2 Z" fill="#38bdf8"/>
+          <text x="20" y="12" fill="#38bdf8" font-size="12" font-weight="bold" font-family="Microsoft JhengHei, PingFang TC, sans-serif">0%</text>
+        </g>
+      </g>
+    
+    </svg>
+  
